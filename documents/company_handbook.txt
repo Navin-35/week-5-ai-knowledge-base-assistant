@@ -1,0 +1,107 @@
+DStarix Employee Handbook
+
+Company Overview
+
+DStarix is an AI-focused technology company specializing in Generative AI, Machine Learning, Large Language Models (LLMs), Cloud Computing, and Enterprise AI Solutions. The company develops intelligent applications to help businesses automate workflows and improve productivity.
+
+Working Hours
+
+Employees work from Monday to Friday.
+
+Office hours are 9:00 AM to 6:00 PM.
+
+Lunch break is from 1:00 PM to 2:00 PM.
+
+Leave Policy
+
+Employees are entitled to:
+
+20 Annual Paid Leaves
+
+10 Sick Leaves
+
+5 Casual Leaves
+
+Remote Work Policy
+
+Employees may work remotely up to three days per week with prior manager approval.
+
+Code of Conduct
+
+Employees must maintain professionalism, respect colleagues, protect confidential company information, and follow ethical workplace practices.
+
+Dress Code
+
+Business Casual.
+
+Employee Benefits
+
+Health Insurance
+
+Annual Performance Bonus
+
+Learning and Certification Budget
+
+Flexible Working Hours
+
+Paid Training Programs
+
+IT Support
+
+Employees can contact the IT Support Team by emailing:
+
+support@dstarix.com
+
+Security Policy
+
+Employees must never share passwords.
+
+Two-Factor Authentication (2FA) is mandatory for all company accounts.
+
+Only authorized personnel may access confidential company data.
+
+Internship Program
+
+The DStarix Internship Program lasts six months.
+
+Interns receive:
+
+• One-on-one mentorship
+
+• Hands-on AI projects
+
+• Weekly learning sessions
+
+• Code reviews
+
+• Career guidance
+
+Performance Reviews
+
+Performance reviews are conducted twice every year.
+
+Promotion Policy
+
+Promotions are based on:
+
+Technical Skills
+
+Performance
+
+Innovation
+
+Leadership
+
+Teamwork
+
+Learning and Development
+
+Employees are encouraged to continuously improve their skills through internal workshops, online courses, technical certifications, and AI research projects sponsored by DStarix.
+
+Company Mission
+
+To build innovative AI-powered solutions that empower businesses through automation, intelligent decision-making, and cutting-edge Generative AI technologies.
+
+Company Vision
+
+To become a global leader in Enterprise Artificial Intelligence and intelligent software solutions.
