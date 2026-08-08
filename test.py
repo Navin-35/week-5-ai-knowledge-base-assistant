@@ -1,9 +1,19 @@
-from app.retriever import search
+from app.rag_pipeline import ask_question
 
-docs = search("Leave Policy")
+while True:
 
-for doc in docs:
+    question = input("\nAsk a question (or type 'exit'): ")
 
-    print("=" * 60)
+    if question.lower() == "exit":
+        break
 
-    print(doc.page_content)
+    result = ask_question(question)
+
+    print("\nOriginal Query:")
+    print(result["original_query"])
+
+    print("\nImproved Query:")
+    print(result["improved_query"])
+
+    print("\nAnswer:")
+    print(result["answer"])
