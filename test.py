@@ -14,27 +14,27 @@ while True:
 
         print("\n" + "=" * 60)
 
-        print("Original Query:")
-        print(result["original_query"])
+        if not result["success"]:
+
+            print("ERROR:")
+            print(result["error"])
+
+            continue
+
+        print("Answer:")
+        print(result["answer"])
+
+        print("\nSources:")
+        print(result["sources"])
+
+        print("\nConfidence:")
+        print(result["confidence"])
 
         print("\nImproved Query:")
         print(result["improved_query"])
-
-        print(
-            "\nRetrieved Documents:",
-            result["retrieved_documents"]
-        )
-
-        print(
-            "Reranked Documents:",
-            result["reranked_documents"]
-        )
-
-        print("\nAnswer:")
-        print(result["answer"])
 
         print("=" * 60)
 
     except Exception as e:
 
-        print("\nError:", e)
+        print("\nUnexpected error:", e)
