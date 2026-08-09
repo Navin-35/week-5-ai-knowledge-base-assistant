@@ -2,7 +2,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 from app.config import GEMINI_API_KEY
 from app.query_transformer import transform_query
-from app.retriever import search
+from app.hybrid_search import hybrid_search
+
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
@@ -15,9 +16,12 @@ def ask_question(question: str):
 
     improved_query = transform_query(question)
 
-    docs = search(improved_query)
+    docs = hybrid_search(improved_query)
 
-    context = "\n\n".join(doc.page_content for doc in docs)
+    context = "\n\n".join(
+        doc.page_content
+        for doc in docs
+    )
 
     prompt = f"""
 You are an AI Knowledge Base Assistant.
@@ -33,6 +37,7 @@ Question:
 {question}
 
 If the answer is not present in the context, say:
+
 "I couldn't find this information in the company knowledge base."
 """
 
