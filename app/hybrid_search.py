@@ -43,10 +43,7 @@ def semantic_search(query: str, k: int = 3):
     )
 
 
-def hybrid_search(query: str, k: int = 3):
-    """
-    Combine semantic and keyword search results.
-    """
+def hybrid_search(query: str, k: int = 6):
 
     documents = load_documents()
 
